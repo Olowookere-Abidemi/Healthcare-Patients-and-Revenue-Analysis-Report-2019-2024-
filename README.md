@@ -2,160 +2,171 @@
 This report provides an in-depth analysis of healthcare data spanning 2019–2024, encompassing patient admissions, revenue trends, demographics, medical conditions, and admission statistics. 
 
 
-Healthcare Patients and Revenue Analysis Report (2019–2024)
-
-Executive Summary
+**Executive Summary**
 
 This provide provides an in-depth analysis of healthcare data spanning 2019–2024, encompassing patient admissions, revenue trends, demographics, medical conditions, and admission statistics. Using advanced analytics and dynamic dashboards, the findings identify key trends in patient behaviour, healthcare utilization, and revenue drivers. Actionable recommendations are presented to optimize operations, enhance patient care, and maximize financial outcomes.
 
 The insights generated offer a roadmap for healthcare administrators to improve resource allocation, strengthen patient engagement strategies, and drive revenue growth while ensuring quality patient care.
 
-Dataset Overview
+**Dataset Overview**
 
 The dataset consists of 55,500 records and includes the following key details:
 
-1. Demographics
-
+_**1. Demographics:**_ 
 Patient name, gender, age, and blood type.
 
-2. Admission Details
-
+_**2. Admission Details:**_
 Admission and discharge dates.
 Type of admission: elective, urgent, or emergency.
 Room numbers and length of stay.
 
-3. Medical Information
-
+_**3. Medical Information:**_
 Medical conditions, test results, and prescribed medications.
 
-4. Revenue Information
-
+_**4. Revenue Information:**_
 Billing amounts and associated insurance providers.
 
-Key Data Enhancements
-
+**Key Data Enhancements:** 
 To enable a more robust analysis, the following data enhancements were performed:
 
-Length of Stay: A calculated column derived as the difference between admission and discharge dates.
-Derived Metrics: Creation of key performance indicators (KPIs) such as total admissions, total revenue, unique patients, and average revenue per patient.
+_Length of Stay:_ A calculated column derived as the difference between admission and discharge dates.
 
- 
+_Derived Metrics:_ Creation of key performance indicators (KPIs) such as total admissions, total revenue, unique patients, and average revenue per patient.
 
-Analysis Conducted
+**Analysis Conducted**
 
-1. Exploratory Data Analysis (EDA)
+**1. Exploratory Data Analysis (EDA)**
+_Trends:_ Investigated trends in patient counts, demographics, and revenue streams.
 
-Trends: Investigated trends in patient counts, demographics, and revenue streams.
-Segmentation: Segmented data by admission types, test results, and medical conditions for better understanding of healthcare service utilization.
+_Segmentation:_ Segmented data by admission types, test results, and medical conditions for better understanding of healthcare service utilization.
 
-2. Key Measures Created
-
+**2. Key Measures Created**
 The following metrics were calculated to provide insights into the dataset:
 
-Total Admitted Patients: Overall number of admissions.
-Total Revenue: Cumulative revenue from patient billing.
-Unique Patients: Total count of unique patients in the dataset.
-Average Revenue per Patient: Calculated as total revenue divided by the number of unique patients.
-Average Stay Length: Average length of hospital stays in days.
-Most Frequent Medical Condition: The most commonly diagnosed condition in the dataset.
+_Total Admitted Patients:_ Overall number of admissions.
 
-3. Visual Dashboards
+_Total Revenue:_  Cumulative revenue from patient billing.
+
+_Unique Patients:_ Total count of unique patients in the dataset.
+
+_Average Revenue per Patient:_ Calculated as total revenue divided by the number of unique patients.
+
+_Average Stay Length:_ Average length of hospital stays in days.
+
+_Most Frequent Medical Condition:_ The most commonly diagnosed condition in the dataset.
+
+**3. Visual Dashboards**
 
 Three dashboards were created to present insights visually and facilitate data-driven decision-making:
 
-Patient Frequency Dashboard: Focuses on patient demographics and admission statistics.
-Revenue Analysis Dashboard: Highlights revenue trends segmented by demographics, admission details, and medical conditions.
-Patient Report Dashboard: Displays individual patient records, including medical, demographic, and revenue details.
+_Patient Frequency Dashboard:_ Focuses on patient demographics and admission statistics.
 
-Analysis and Insights
+_Revenue Analysis Dashboard:_ Highlights revenue trends segmented by demographics, admission details, and medical conditions.
 
-1. Patient Frequency Dashboard
+_Patient Report Dashboard:_ Displays individual patient records, including medical, demographic, and revenue details.
 
-Key Findings
+**Analysis and Insights**
 
-Gender Distribution:
+_**1. Patient Frequency Dashboard**_
+
+_Key Findings_
+
+_Gender Distribution:_
 Patient admissions are nearly balanced, with females slightly higher at 50.1% compared to males at 49.9%.
-Age Group Trends:
+
+_Age Group Trends:_
 The 19–35 age group recorded the highest number of patients (11.54k), indicating this demographic’s higher healthcare utilization.
 The 0-18 age group had the lowest admissions (830 patients), potentially highlighting barriers to care for adolescent patients.
-Admission Types:
+
+_Admission Types:_
 Elective admissions lead slightly (18.66k), followed by urgent (18.58k) and emergency admissions (18.27k).
-Top Medical Conditions:
+
+_Top Medical Conditions:_
 Arthritis: Most frequent, recorded for 9.31k patients.
 Diabetes: Second most frequent, impacting 9.30k patients.
 Hypertension: Recorded for 9.25k patients, reflecting a significant chronic disease burden.
-Test Results:
+
+_Test Results:_
 Most patients had abnormal test results (18.63k), while normal test results (18.52K), and inconclusive results (18.36k).
-Length of Stay:
+
+_Length of Stay:_
 The average hospital stay is 16 days, with noticeable fluctuations throughout the year.
 
-2. Revenue Analysis Dashboard
+_**2. Revenue Analysis Dashboard**_
 
-Key Findings
+_Key Findings_
 
-Total Revenue:
+_Total Revenue:_
 The hospital generated $1.42 billion in revenue, with an average billing of $25,539 per patient.
-Revenue by Gender:
+
+_Revenue by Gender:_
 Females contributed slightly more to total revenue (49.82%) compared to males (50.18%).
-Revenue by Age Group:
+
+_Revenue by Age Group:_
 Patients aged 19–35 years generated the highest revenue ($348M), while patients aged 0-18 years contributed the least ($24M).
-Revenue by Insurance Providers:
+
+_Revenue by Insurance Providers:_
 The top insurance contributors were Cigna ($287M) and Medicare ($286M).
-Revenue by Medical Conditions:
+
+_Revenue by Medical Conditions:_
 Chronic conditions such as Diabetes ($239M) and Arthritis ($237M) accounted for the highest revenues, indicating significant healthcare costs.
-Revenue Trends:
+
+_Revenue Trends:_
 Annual revenue grew steadily from $190M in 2019, with a slight dip in 2024 due to reduced admissions.
-Revenue by Medications:
 
-o    The top-prescribed medication Lipitor, was associated with 11.14k, while ibuprofen generate more income of $286M followed by Aspirin $284M  and Paracetamol $283M. Lipitor generated $282M revenue.
+_Revenue by Medications:_
+The top-prescribed medication Lipitor, was associated with 11.14k, while ibuprofen generate more income of $286M followed by Aspirin $284M  and Paracetamol $283M. Lipitor generated $282M revenue.
 
-3. Patient Report Dashboard
-
+_**3. Patient Report Dashboard**_
 This dashboard provides individualized patient insights, including:
 
-Demographics: Gender, age, blood type.
-Admission Details: Admission and discharge dates, type of admission, and length of stay.
-Medical Data: Conditions, test results, and medications.
-Revenue Details: Billing amounts and insurance providers.
+_Demographics:_ Gender, age, blood type.
 
-Example Patient Profile:
+_Admission Details:_ Admission and discharge dates, type of admission, and length of stay.
 
-Patient: Aaron Bennett
-Gender: Male, Age: 76, Blood Type: AB-
-Admission Type: Elective, Length of Stay: 19 days
-Condition: Diabetes, Test Results: Inconclusive
-Medication: Lipitor, Total Billing: $12,740.89
+_Medical Data:_ Conditions, test results, and medications.
 
-Key Insights
+_Revenue Details:_ Billing amounts and insurance providers.
 
-High Patient Volume:
+**Example Patient Profile:**
+
+_Patient:_ Aaron Bennett
+
+_Gender:_ Male, Age: 76, _Blood Type:_ AB-
+
+_Admission Type: _Elective, _Length of Stay:_ 19 days
+
+_Condition:_ Diabetes, _Test Results:_ Inconclusive
+
+_Medication:_ Lipitor, _Total Billing:_ $12,740.89
+
+**Key Insights**
+
+_High Patient Volume:_
 The 19–35 age group represents the largest demographic, indicating the need for targeted healthcare services and campaigns for this group.
-Revenue Growth:
+
+_Revenue Growth:_
 Consistent growth in total revenue reflects efficient billing processes and patient retention strategies.
-Chronic Conditions Dominate:
+
+_Chronic Conditions Dominate:_
 Chronic diseases such as Diabetes and Arthritis are major revenue drivers, highlighting the importance of specialized care.
-Admission Type Insights:
+
+_Admission Type Insights:_
 Balanced distribution of elective, urgent, and emergency admissions suggests efficient resource allocation.
 
-Recommendations
+**Recommendations**
 
-1.      Enhance Chronic Condition Care:
+_**1. Enhance Chronic Condition Care:**_ Expand preventive and specialized care programs for chronic conditions to improve outcomes and reduce costs.
 
-Expand preventive and specialized care programs for chronic conditions to improve outcomes and reduce costs.
+**_2. Target High-Contributing Demographics:_** Design health campaigns and services specifically for the 19–35 age group, which generates the highest revenue.
 
-2.      Target High-Contributing Demographics:
+**_3. Optimize Admission Management:_** Address inefficiencies in elective admissions to streamline patient flow and reduce wait times.
 
-Design health campaigns and services specifically for the 19–35 age group, which generates the highest revenue.
+**_4. Strengthen Insurance Partnerships:_** Collaborate with leading insurance providers such as Cigna and Medicare to enhance patient acquisition and retention.
 
-3.      Optimize Admission Management:
+_**5. Monitor Stay Length:**_ Analyze factors affecting extended hospital stays to improve bed turnover rates and overall efficiency.
 
-Address inefficiencies in elective admissions to streamline patient flow and reduce wait times.
-Strengthen Insurance Partnerships:
-Collaborate with leading insurance providers such as Cigna and Medicare to enhance patient acquisition and retention.
-Monitor Stay Length:
-Analyze factors affecting extended hospital stays to improve bed turnover rates and overall efficiency.
-
-Conclusion
+**Conclusion**
 
 This analysis provides a comprehensive understanding of patient demographics, admission trends, and revenue performance. By leveraging the insights and implementing the recommendations, healthcare administrators can improve patient outcomes, optimize operations, and achieve sustainable financial growth. Regular monitoring of these metrics is essential to adapt to emerging trends and maintain a competitive advantage.
 
