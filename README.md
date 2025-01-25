@@ -62,6 +62,9 @@ Three interactive dashboards were created to facilitate decision-making:
 
 ### 1. Patient Frequency Dashboard
 
+![](https://github.com/Olowookere-Abidemi/Healthcare-Patients-and-Revenue-Analysis-Report-2019-2024-/blob/main/PATIENTS%20DASHBOARD.png)
+---
+
 #### Key Findings
 - **Gender Distribution:** Female admissions slightly higher (50.1%) compared to males (49.9%).
 - **Age Group Trends:** The 19–35 age group had the highest admissions (11.54k), while the 0–18 age group recorded the lowest (830 patients).
@@ -77,6 +80,9 @@ Three interactive dashboards were created to facilitate decision-making:
 - **Length of Stay:** Average stay is 16 days, with seasonal fluctuations.
 
 ### 2. Revenue Analysis Dashboard
+
+![](https://github.com/Olowookere-Abidemi/Healthcare-Patients-and-Revenue-Analysis-Report-2019-2024-/blob/main/PATIENTS%20DASHBOARD.png)
+---
 
 #### Key Findings
 - **Total Revenue:** $1.42 billion, with an average billing of $25,539 per patient.
@@ -94,6 +100,8 @@ Three interactive dashboards were created to facilitate decision-making:
   - Paracetamol: $283M.
 
 ### 3. Patient Report Dashboard
+
+![](https://github.com/Olowookere-Abidemi/Healthcare-Patients-and-Revenue-Analysis-Report-2019-2024-/blob/main/REPORT%202.png)
 
 Provides individualized patient details:
 - **Demographics:** Gender, age, blood type.
